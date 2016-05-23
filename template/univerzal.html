@@ -7,14 +7,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="mobile-web-app-capable" content="yes">
 	<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.css" />-->
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
 	<script src="http://cdnjs.cloudflare.com/ajax/libs/angular-ui/0.4.0/angular-ui.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-animate.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-aria.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-messages.min.js"></script>
 </head>
 <body>
-    <div ng-controller="AppCtrl">
-
+    <div ng-controller="AppCtrl" class="container">
+	  <div class="jumbotron">
+		<h1>Bootstrap Tutorial</h1>      
+		<p>some text</p>
+	  </div>
+	  <div class="row">
+		<div class="col-sm-9" style="background-color:lavender;">obsah</div>
+		<div class="col-sm-3" style="background-color:lavenderblush;">Kontak</div> 
+	  </div>	
     </div>
 </body>
 </html>
