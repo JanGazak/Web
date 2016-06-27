@@ -1,1 +1,4 @@
 template/.vscode/.browse.VC.db
+*.dll
+*.pdb
+*.suo

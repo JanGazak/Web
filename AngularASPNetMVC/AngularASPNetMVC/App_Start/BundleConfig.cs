@@ -15,6 +15,7 @@ namespace AngularASPNetMVC
 
       bundles.Add(new ScriptBundle("~/bundles/AngularASPNetMVC")
     .IncludeDirectory("~/Scripts/Controllers", "*.js")
+    .IncludeDirectory("~/Scripts/Factories", "*.js")
     .Include("~/Scripts/AngularASPNetMVC.js"));
 
       BundleTable.EnableOptimizations = true;
